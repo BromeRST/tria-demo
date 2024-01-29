@@ -16,6 +16,8 @@ const config: Config = {
                 lightPrimary: "#FAFAFA",
                 lightPurple: "#9F8BFF",
                 darkSurface: "#1A1A1A",
+                "darkSurface-700": "#333331",
+                "darkSurface-800": "#252622",
             },
             boxShadow: {
                 card: "0px 0px 1px 0px rgba(128, 128, 128, 0.20), 0px 2px 30px 0px rgba(128, 128, 128, 0.08), 0px 0px 15px 0px rgba(128, 128, 128, 0.03)",

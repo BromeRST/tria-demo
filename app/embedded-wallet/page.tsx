@@ -1,9 +1,5 @@
-import Card from "../components/Card/Card";
+import EmbeddedWalletCard from "../components/Card/EmbeddedWalletCard";
 
 export default function Loading() {
-    return (
-        <Card gotBack>
-            <div></div>
-        </Card>
-    );
+    return <EmbeddedWalletCard />;
 }
