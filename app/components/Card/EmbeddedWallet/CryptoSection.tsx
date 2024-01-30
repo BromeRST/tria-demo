@@ -50,12 +50,11 @@ const CryptoSection = () => {
                             className={`w-full overflow-x-hidden transition-all duration-200 ease-in-out ${isInEvidence ? "max-h-[2000px] px-0 opacity-100" : "max-h-0 scale-y-0 opacity-0"} origin-top`}
                         >
                             {Array.from({ length: c.sub }).map((_, i) => (
-                                <div>
+                                <div key={i}>
                                     <div className="bg-darkSurface-800">
                                         <div className="mx-auto h-[1px] w-11/12 bg-lightPrimary/10" />
                                     </div>
                                     <div
-                                        key={i}
                                         className={`flex cursor-pointer items-center justify-between bg-darkSurface-800 p-3 ${i === c.sub - 1 && "rounded-b-xl"}`}
                                     >
                                         <div className="flex items-center gap-3">

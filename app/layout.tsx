@@ -17,7 +17,7 @@ export const metadata: Metadata = {
                 url: "https://lovewaifu.com/api/og-image",
                 width: 800,
                 height: 600,
-                alt: "Love Waifu",
+                alt: "Tria Wallet",
             },
         ],
     },
