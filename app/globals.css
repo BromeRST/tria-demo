@@ -73,3 +73,13 @@ body {
 .triangle {
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
+
+@keyframes bump {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-50px); } /* Adjust the value as needed */
+  100% { transform: translateY(0); }
+}
+
+.animate-bump {
+  animation: bump 700ms ease forwards;
+}

@@ -15,7 +15,7 @@ const Tooltip = ({ children, text, isOnTop = false }: TooltipProps) => {
     const handleMouseEnter = () => {
         hoverTimer.current = setTimeout(() => {
             setIsTooltipVisible(true);
-        }, 1000); // 1000 milliseconds = 1 second
+        }, 500);
     };
 
     const handleMouseLeave = () => {
