@@ -42,7 +42,7 @@ const CryptoSection = () => {
                     <div
                         key={i}
                         onClick={() => setInEvidence([...inEvidence, i])}
-                        className={`transition-all ${isInEvidence && "rounded-xl border border-lightPrimary/10"} ${applyBumpAnimation ? "animate-bump z-30" : ""}`}
+                        className={`${isInEvidence && "rounded-xl border border-lightPrimary/10"} ${applyBumpAnimation ? "animate-bump z-30" : ""}`}
                     >
                         <CryptoBtn c={c} index={i} isInEvidence={isInEvidence} onClose={() => handleClose(i)} />
 

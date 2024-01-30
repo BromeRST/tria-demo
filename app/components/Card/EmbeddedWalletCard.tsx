@@ -7,8 +7,8 @@ import ToCloseBtn from "./EmbeddedWallet/ToCloseBtn";
 
 const EmbeddedWalletCard = () => {
     return (
-        <div className="flex h-screen w-screen items-center justify-center p-3 text-[13px] md:text-base">
-            <div className="relative flex h-full max-h-[680px] w-full max-w-[412px] flex-col justify-between rounded-[20px] border border-[#fafafa14] bg-darkSurface pb-3 md:max-h-[753px]">
+        <div className="flex h-screen w-screen items-center justify-center p-3 pt-10 text-[13px] md:pt-0 md:text-base">
+            <div className="relative flex h-full max-h-[753px] w-full max-w-[412px] flex-col justify-between rounded-[20px] border border-[#fafafa14] bg-darkSurface pb-3">
                 <ToCloseBtn />
                 <div className="h-1/3 w-full md:max-h-[432px]">
                     <video
