@@ -14,9 +14,9 @@ export const metadata: Metadata = {
         url: "",
         images: [
             {
-                url: "https://lovewaifu.com/api/og-image",
+                url: "https://tria-demo.vercel.app/brand/logo.svg",
                 width: 800,
-                height: 600,
+                height: 800,
                 alt: "Tria Wallet",
             },
         ],
