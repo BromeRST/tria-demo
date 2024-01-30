@@ -14,10 +14,10 @@ export default function Register() {
 
     return (
         <Card gotBack>
-            <div className="bg-darkSurface flex w-full flex-col gap-3 rounded-2xl p-4">
+            <div className="flex w-full flex-col gap-3 rounded-2xl bg-darkSurface p-4">
                 <div className="text-lg text-lightPrimary/70 md:text-[22px]">Create your Tria name</div>
                 <div className="mt-5 flex items-center gap-2">
-                    <div className="bg-purpleBorder w-3/4 rounded-2xl p-[1px]">
+                    <div className="w-3/4 rounded-2xl bg-purpleBorder p-[1px]">
                         <div className="rounded-2xl bg-offBlack">
                             <div className="flex items-center justify-between rounded-2xl bg-lightPrimary/15 px-4 py-3">
                                 <input
@@ -50,7 +50,7 @@ export default function Register() {
                             {Array.from({ length: 3 }).map((_, i) => (
                                 <div
                                     key={i}
-                                    className="hover:shadow-insetBtn flex cursor-pointer items-center justify-center truncate truncate rounded-full border border-lightPrimary/10 bg-[#808080]/5 px-4 py-3 text-sm text-lightPrimary/70"
+                                    className="flex cursor-pointer items-center justify-center truncate truncate rounded-full border border-lightPrimary/10 bg-[#808080]/5 px-4 py-3 text-sm text-lightPrimary/70 hover:shadow-insetBtn"
                                 >{`${debouncedName}123`}</div>
                             ))}
                         </div>

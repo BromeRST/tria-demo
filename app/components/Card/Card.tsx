@@ -29,11 +29,11 @@ const Card = ({ children, gotBack = false, isLoading = false }: CardProps) => {
                     </Link>
                 )}
 
-                <div className="h-1/2 max-h-[270px] w-full md:max-h-[432px] 2xl:h-3/5">
+                <div className="h-1/2 max-h-[270px] w-full md:max-h-[330px] 2xl:h-3/5 2xl:max-h-[422px]">
                     {!isLoading && (
                         <video src="/brand/video/static-bg-animation.webm" className="h-full w-full object-cover opacity-50" autoPlay loop muted />
                     )}
-                    <div className="absolute left-0 top-0 flex h-1/2  max-h-[280px] w-full flex-col items-center justify-center bg-cardTopSection md:max-h-[440px] 2xl:h-3/5">
+                    <div className="absolute left-0 top-0 flex h-1/2  max-h-[280px] w-full flex-col items-center justify-center bg-cardTopSection md:max-h-[340px] 2xl:h-3/5 2xl:max-h-[420px]">
                         {renderLogo()}
                         <div className="mt-7 w-1/3 text-center text-lg leading-[27.5px] text-white/70 md:text-[22px]">
                             Login to

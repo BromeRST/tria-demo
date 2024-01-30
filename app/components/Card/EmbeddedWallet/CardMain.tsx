@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Tooltip from "../../Tooltip/Tooltip";
 
 const CardMain = () => (
     <div className="bg-darkSurface">
@@ -10,9 +11,11 @@ const CardMain = () => (
                 </div>
                 <div className="flex items-center gap-2">
                     <div className="mt-1 text-4xl font-semibold text-white">$1838.83</div>
-                    <div className="cursor-pointer rounded-lg p-[7px] opacity-40 hover:bg-lightPrimary/10 hover:opacity-100">
-                        <Image src="/brand/icons/refresh.svg" width={18} height={18} alt="refresh icon" />
-                    </div>
+                    <Tooltip text="Refresh">
+                        <div className="cursor-pointer rounded-lg p-[7px] opacity-40 hover:bg-lightPrimary/10 hover:opacity-100">
+                            <Image src="/brand/icons/refresh.svg" width={18} height={18} alt="refresh icon" />
+                        </div>
+                    </Tooltip>
                 </div>
             </div>
             <div className="flex items-center gap-3.5">

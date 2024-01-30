@@ -17,7 +17,7 @@ const CryptoSection = () => {
     ];
 
     return (
-        <div className="mt-3 flex flex-col gap-1">
+        <div className="mt-1 flex flex-col gap-1">
             {cryptos.map((c, i) => (
                 <CryptoBtn key={i} c={c} index={i} />
             ))}

@@ -69,3 +69,7 @@ body {
 .animate-bumpEffect {
   animation: bumpEffect 0.3s ease forwards;
 }
+
+.triangle {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}

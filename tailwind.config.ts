@@ -22,6 +22,7 @@ const config: Config = {
             boxShadow: {
                 card: "0px 0px 1px 0px rgba(128, 128, 128, 0.20), 0px 2px 30px 0px rgba(128, 128, 128, 0.08), 0px 0px 15px 0px rgba(128, 128, 128, 0.03)",
                 insetBtn: "inset 0px 0px 14.1px 0px rgba(255, 255, 255, 0.25)",
+                tooltip: "0px 8px 16px 0px rgba(0, 0, 0, 0.30)",
             },
         },
     },
