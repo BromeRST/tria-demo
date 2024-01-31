@@ -14,8 +14,8 @@ export const metadata: Metadata = {
         url: "",
         images: [
             {
-                url: "https://tria-demo.vercel.app/brand/logo.svg",
-                width: 800,
+                url: "https://tria-demo.vercel.app/api/og-image",
+                width: 1200,
                 height: 800,
                 alt: "Tria Wallet",
             },
